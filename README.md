@@ -8,8 +8,8 @@ pip install pytube # Install PyTube
 ````
 python downloader.py
 ````
-Enter Video Name
-Enter "V" for Video and "A" for Audio
+1. Enter Video Name
+2. Enter "V" for Video and "A" for Audio
 
 ## FEATURES
 1. Download Video or Audio from YouTube with just a Video Title
