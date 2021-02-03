@@ -17,7 +17,7 @@ def play(topic):
         if i == 'WEB_PAGE_TYPE_WATCH':
             break
     if lst[count-5] == "/results":
-        raise Exception(f"No AssHat Video found with name {topic}")
+        raise Exception("No Video Found with that name")
     return "https://www.youtube.com"+lst[count-5]
 def rename(direc):
     direc = direc.replace('/', '\\')
